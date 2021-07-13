@@ -4,7 +4,7 @@ import "./App.css";
 import Expenses from "./components/Expenses";
 
 function App() {
-  const expenes = [
+  const expenses = [
     {
       id: "e1",
       title: "Toilet Paper",
@@ -31,7 +31,7 @@ function App() {
     },
   ];
 
-  return  <Expenses expenseData = {expenes}/>;
+  return  <Expenses expenseData = {expenses}/>;
 }
 
 export default App;
